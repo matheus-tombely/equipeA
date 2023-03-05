@@ -9,6 +9,7 @@
             padding: 0;
             color: #000;
             background: #fff;
+            
         }
 
         #geral {
@@ -21,12 +22,14 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 20pt;
             font-weight: bolder;
+         
         }
 
         #topicos {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: large;
             font-weight: bold;
+            text-align: center;
         }
 
         #corpoTopicos {
@@ -34,12 +37,34 @@
             font-size: medium;
         }
 
-        #paragraph {
-            text-align: left;            
+  
+        #conteudo-1 {
+        float:left;
+        width:400px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        
         }
-        #corpoDiv{
-            width: 50%;
-            font
+        #conteudo-2 {
+        float:right;
+        width:720px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        }
+        #conteudo-2-1 {
+        float:left;
+        width:400px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+       
+        }
+        #conteudo-2-2 {
+        float:right;
+        width:500px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        
+
         }
     </style>
 </head>
@@ -49,14 +74,21 @@
         <center>Atividade com o Github <img src="Images/gitLogo.png" width="40" height="40">
     </h1>
     <div id="topicos">
-        Definição
+        Git x GitHub x Git Desktop
         <div>
 
         </div>
     </div>
-    <br>
     <div id="topicos">
-        Principais Comandos
+        Demonstração
+        <div>
+
+        </div>
+    </div>
+    
+    <br>
+    <div id="conteudo-1">
+       <h4>Principais Comandos</h4> 
         <div>
             <p>
             <div id="corpoDiv">
@@ -78,18 +110,26 @@
                 pois é facilmente revertido, mesmo após o commit ter sido aplicado.
 
             </div>
+            
             <br>
-            <div id="corpoDiv">
+
+        </div> 
+        </p>
+    </div>
+    <div id="conteudo-2-1">
+        
+        <div>
+            <p id="paragraph" style="color: rgb(10, 38, 116);">
+            <div>
                 <h4>Git push e sincronização</h4>
 
-                O git push é um dos muitos componentes usados no processo geral de
-                "sincronização" do Git. Os comandos de sincronização operam em
-                branches remotos que são configuradas usando o comando git remote.
-                O git push pode ser considerado um comando de "upload", enquanto
-                o git fetch e o git pull podem ser considerados comandos de "download".
-                Assim que os conjuntos de alterações tiverem sido movidos por meio de
-                um download ou upload, um git merge pode ser realizado no destino
-                 para integrar as modificações.
+                O git push é um dos muitos componentes usados no processo geral de "sincronização" do Git.
+                Os comandos de sincronização operam em branches remotos que são configuradas usando o comando git
+                remote.
+                O git push pode ser considerado um comando de "upload", enquanto o git fetch e o git pull podem ser
+                considerados comandos de "download". Assim que os conjuntos de alterações tiverem sido movidos
+                por meio de um download ou upload, um git merge pode ser realizado no destino para integrar as
+                modificações.
 
             </div>
             <br>
@@ -100,23 +140,25 @@
             <div>
 
             </div>
-        </div>
+        </div> 
         </p>
     </div>
     <br>
-    <div id="topicos">
-        Git x GitHub x Git Desktop
-        <div>
-
-        </div>
+    <div>
+        <br>
+        <br>
     </div>
+<div id="conteudo-2-2">
+    
+    <img src="Images/gitLogo.png" width="450" height="250">
+</div>
+    
+
+    
     <br>
-    <div id="topicos">
-        Demonstração
-        <div>
-
-        </div>
-    </div>
+    
+    <br>
+    
     <br>
 
 
